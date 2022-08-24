@@ -23,7 +23,7 @@ while i<=5:
     print()
     guessed=int(input("Enter the number between "+ str(lower_bound)+" and "+ str(upper_bound)+": "))
     i=i+1
-    if guessed==generated_number :
+    if guessed==generated_number** :
               print()
               print("****Congratulations,you have won!!!****")
               print("Your Guess is Correct and You have taken attempts for the right answer.")
@@ -39,7 +39,7 @@ while i<=5:
               print()
               print("Guessed number is lesser than generated number")
               score=score-1
-              print("Sorry,Try another chance!")
+              print("Sorry,Try another chance!**")
 
     
 if(score==0) :
@@ -48,4 +48,5 @@ if(score==0) :
     print("OOPS!!!YOU LOSE THE GAME")
     score=score-1
     print("**SCOREBOARD**")
-    print("***YOUR FINAL SCORE:"+str(score)+"****")
+    print()
+    print("***YOUR FINAL SCORE:-  "+str(score)+"****")
